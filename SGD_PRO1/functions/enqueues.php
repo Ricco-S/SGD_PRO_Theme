@@ -18,8 +18,8 @@ function sgd_enqueues() {
     
     
     
-    wp_register_script('jquery-3-6-3-js', get_template_directory_uri() . '/js/jquery-3-6-3.min.js', false, null, true);
-    wp_enqueue_script('jquery-3-6-3-js');
+  //  wp_register_script('jquery-3-6-3-js', get_template_directory_uri() . '/js/jquery-3-6-3.min.js', false, null, true);
+  //  wp_enqueue_script('jquery-3-6-3-js');
 
   	wp_register_script('bootstrap-3-4-1-js', get_template_directory_uri() . '/js/bootstrap-3-4-1.min.js', false, null, true);
 	wp_enqueue_script('bootstrap-3-4-1-js'); 
